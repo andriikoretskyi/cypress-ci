@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Thu Jun 05 19:54:04 GMT 2025","Thu Jun 05 19:54:05 GMT 2025","233","First suite","","","","","Sending requests via Cypress",""
