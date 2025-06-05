@@ -1,0 +1,16 @@
+{
+  "name": "ngx-cypress-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "build_report": "allure serve allure-results"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "allure-cypress": "^3.2.2",
+    "cypress": "^14.4.0"
+  }
+}

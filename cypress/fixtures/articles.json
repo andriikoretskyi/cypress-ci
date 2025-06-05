@@ -1,0 +1,23 @@
+{
+    "articles": [
+        {
+            "slug": "Article-Title-27009",
+            "title": "Article Title",
+            "description": "Article Description",
+            "body": "Actual Article",
+            "tagList": [
+                "tag"
+            ],
+            "createdAt": "2025-05-23T18:17:50.520Z",
+            "updatedAt": "2025-05-23T18:17:50.520Z",
+            "favorited": false,
+            "favoritesCount": 0,
+            "author": {
+                "username": "test-cypress-api",
+                "bio": null,
+                "image": "https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg",
+                "following": false
+            }
+        }
+    ]
+}
