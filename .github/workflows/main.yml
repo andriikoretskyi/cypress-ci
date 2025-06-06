@@ -27,3 +27,5 @@ jobs:
         run: |
           eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
           allure serve allure-results
+      - name: Output folders
+        run: ls
