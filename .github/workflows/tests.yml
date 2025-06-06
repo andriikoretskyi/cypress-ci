@@ -14,6 +14,8 @@ jobs:
         run: npm ci
       - name: Run Cypress tests
         uses: cypress-io/github-action@v6
+        with:
+          browser: chrome
         continue-on-error: true
       - name: Load test report history
         uses: actions/checkout@v3
