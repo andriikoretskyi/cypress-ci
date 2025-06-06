@@ -18,7 +18,12 @@ jobs:
         run: |
           eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
           brew install allure
-      - name: Allure Version
+      - name: Run Cypress tests
+        uses: cypress-io/github-action@v6
+        with:
+          browser: chrome
+        continue-on-error: true
+      - name: Build the Allure Report
         run: |
-          eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-          allure --version
+          "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+          allure serve allure-results
