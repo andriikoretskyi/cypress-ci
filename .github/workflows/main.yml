@@ -25,5 +25,5 @@ jobs:
         continue-on-error: true
       - name: Build the Allure Report
         run: |
-          "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+          eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
           allure serve allure-results
